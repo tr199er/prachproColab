@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Parisienne", cursive;
+  font-family: "Poppins", sans-serif;
+}
