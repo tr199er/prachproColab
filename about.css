@@ -11,4 +11,10 @@ html {
 body {
   font-family: "Parisienne", cursive;
   font-family: "Poppins", sans-serif;
+  padding: 0 3rem;
+}
+
+/********************* HEADER/ NAVBAR ********************/
+header {
+  color: black;
 }
