@@ -16,5 +16,29 @@ body {
 
 /********************* HEADER/ NAVBAR ********************/
 header {
-  color: black;
+  color: #0a285a;
+  padding: 0 4rem;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-container {
+  display: flex;
+}
+
+.logo a img {
+  background-color: #0a285a;
+}
+
+.menu-links {
+  list-style: none;
+  display: flex;
+}
+
+.menu-links li a {
+  text-decoration: none;
+  color: #0a285a;
 }
