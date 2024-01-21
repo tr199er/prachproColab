@@ -24,10 +24,15 @@
   align-items: center;
   flex-direction: column;
   width: 600px;
-  height: 200px;
+  height: 250px;
   background-color: #fff;
+  border-radius: 10px;
 }
 
-.btn-1{
-  display:;
+.btn-1, .btn-2{
+  background-color: #0D1B48;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  padding: 10px 20px;
 }
