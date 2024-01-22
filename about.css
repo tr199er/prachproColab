@@ -16,8 +16,8 @@ body {
 
 /********************* HEADER/ NAVBAR ********************/
 header {
-  color: #0a285a;
-  padding: 0 4rem;
+  color: #4e5079;
+  padding: 1.7rem 13.5rem;
 }
 
 .nav-bar {
@@ -29,16 +29,56 @@ header {
   display: flex;
 }
 
-.logo a img {
-  background-color: #0a285a;
+.logo img {
+  width: 7.5rem;
+  margin-right: 1rem;
+  padding: 0.2rem 0;
 }
 
 .menu-links {
   list-style: none;
   display: flex;
 }
+.menu-links li {
+  padding: 0.45rem 1rem;
+}
 
 .menu-links li a {
   text-decoration: none;
-  color: #0a285a;
+  color: #4e5079;
+  font-size: 0.9rem;
 }
+.right {
+  display: flex;
+  position: relative;
+
+  /* background: white; */
+}
+
+.right a {
+  display: inline-block;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #4e5079;
+  padding: 0.5rem;
+  box-shadow: 0 0 10px rgba(27, 22, 66, 0.04),
+    0 44px 35px rgba(27, 22, 66, 0.06);
+  border-radius: 0.45rem;
+  transition: all 0.2s ease;
+}
+.right a:hover {
+  background: #a6a6a6;
+  padding: 0.4rem 0.5rem;
+}
+
+.right a svg {
+  height: 1em;
+  display: inline-block;
+  vertical-align: -0.13em;
+  fill: #4e5079;
+}
+
+/* ABOUT-TOP-INTRO */
