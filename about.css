@@ -110,9 +110,38 @@ header {
 /* MAIN INTRO */
 #about-main {
   padding: 6.5rem 13.5rem;
+  color: #4e5079;
 }
 .about-text {
   display: flex;
-  justify-content: space-between;
-  gap: 1rem;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+  margin: 2rem;
+}
+
+.about-text-header {
+  flex: 1;
+}
+
+.about-text-header p {
+  font-size: 2rem;
+}
+
+.about-t1 {
+  flex: 1.5;
+}
+.about-t1 p {
+  font-size: 1rem;
+  font-weight: 100;
+}
+.about-t1 h4 {
+  font-family: "Parisienne", cursive;
+  font-size: 2rem;
+  font-weight: 100;
+}
+.about-t2 {
+  flex: 2;
+}
+.about-t2 p {
+  font-size: 1rem;
 }
