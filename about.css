@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -17,7 +18,7 @@ body {
 /********************* HEADER/ NAVBAR ********************/
 header {
   color: #4e5079;
-  padding: 1.7rem 13.5rem;
+  padding: 1.2rem 13.5rem;
 }
 
 .nav-bar {
@@ -82,3 +83,36 @@ header {
 }
 
 /* ABOUT-TOP-INTRO */
+.top-container {
+  height: 26vh;
+  width: 100%;
+  background-image: url(/images/lagos.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.selection-container {
+  background: #0a2659;
+  opacity: 0.8;
+  height: 26vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+
+.selection a {
+  text-decoration: none;
+  color: white;
+}
+
+/* MAIN INTRO */
+#about-main {
+  padding: 6.5rem 13.5rem;
+}
+.about-text {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
