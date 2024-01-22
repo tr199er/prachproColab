@@ -181,3 +181,8 @@ header {
   text-align: center;
   margin-bottom: 1.2rem;
 }
+
+/* ABOUT TEAM SECTION */
+#team-section {
+  padding: 6.5rem 13.5rem;
+}
