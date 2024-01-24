@@ -11,6 +11,7 @@
   </head>
   <body>
     <header>
+      <!---------- NAVBAR --------->
       <nav class="nav-bar">
         <div class="left-container">
           <div class="logo">
@@ -36,7 +37,31 @@
           >
         </div>
       </nav>
-      <nav class="hamburger-menu"></nav>
+      <!---- HAMBURGER MENU ---->
+      <nav id="ham-nav">
+        <div class="ham-logo">
+          <img src="/images/logo.svg" alt="" />
+        </div>
+        <div class="ham-menu">
+          <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+            >&#9776;</span
+          >
+          <div id="myNav" class="overlay">
+            <div class="overlay-nav">
+              <img src="/images/logo.svg" alt="" />
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+                >&times;</a
+              >
+            </div>
+            <div class="overlay-content">
+              <a href="#">ABOUT</a>
+              <a href="#">FAQ</a>
+              <a href="#">Tutorials</a>
+              <a href="#">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
     <!--------------- ABOUT INTRO SECTION-TOP--------------->
     <div class="top-container">

@@ -221,7 +221,7 @@ header {
   border: 9px white solid;
 }
 
-.crd-img::before {
+/* .crd-img::before {
   content: "";
   width: 100%;
   height: 0;
@@ -249,7 +249,7 @@ header {
 }
 .card:hover .crd-img::before {
   height: 100%;
-}
+} */
 
 .card-text {
   font-weight: 300;
