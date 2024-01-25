@@ -1,2 +1,73 @@
 @media screen and (max-width: 768px) {
+  .nav-bar {
+    display: none;
+  }
+  #ham-nav {
+    padding: 2.5rem 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .ham-logo {
+    align-items: center;
+  }
+  .ham-logo img {
+    width: 10rem;
+  }
+
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    /* z-index: 1; */
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  .overlay-nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.1rem 3rem;
+  }
+  .overlay-nav img {
+    width: 10rem;
+    height: 1.8rem;
+  }
+  .overlay-content {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-align: left;
+    margin-top: 30px;
+  }
+
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    color: #f1f1f1;
+    font-weight: 100;
+    letter-spacing: 1px;
+    padding: 0 0 1.5rem 3rem;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .overlay a:hover,
+  .overlay a:focus {
+    color: #f1f1f1;
+  }
+
+  .overlay .closebtn {
+    font-size: 63px;
+    margin: 0;
+    padding: 0;
+    position: inherit;
+    top: -9px;
+  }
 }

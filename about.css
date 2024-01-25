@@ -25,6 +25,9 @@ header {
   display: flex;
   justify-content: space-between;
 }
+#ham-nav {
+  display: none;
+}
 
 .left-container {
   display: flex;
